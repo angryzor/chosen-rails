@@ -14,6 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = 'chosen-rails'
   gem.require_paths = ['lib']
   gem.version       = Chosen::Rails::VERSION
+  gem.license       = 'MIT'
 
   gem.add_dependency 'railties', '>= 3.0'
   gem.add_dependency 'coffee-rails', '>= 3.2'
